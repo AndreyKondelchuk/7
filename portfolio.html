@@ -17,32 +17,34 @@
   </head>
   <body>
     <header>
-      <div class="container main-nav">
-        <a class="logo" href=""><span class="first-logo">Web</span>Studio</a>
-        <nav class="nav-list">
-          <ul class="site-nav-list">
-            <li><a href="./index.html" class="link menu-link">Студия</a></li>
+      <div class="container nav">
+        <a class="logo" href=""><span class="logo__text">Web</span>Studio</a>
+        <nav class="navigation">
+          <ul class="site-navigation">
             <li>
-              <a href="./portfolio.html" class="link-current menu-link"
+              <a href="./index.html" class="link navigation__link">Студия</a>
+            </li>
+            <li>
+              <a href="./portfolio.html" class="link-current navigation__link"
                 >Портфолио</a
               >
             </li>
-            <li><a href="" class="link menu-link">Контакты</a></li>
+            <li><a href="" class="link navigation__link">Контакты</a></li>
           </ul>
         </nav>
-        <ul class="contacts-nav">
-          <li class="contacts-item">
-            <a class="info" href="mail:info@devstudio.com">
-              <svg class="contacts-icon" width="16" height="12">
+        <ul class="contacts-navigation">
+          <li class="contacts__item">
+            <a class="contacts__link" href="mail:info@devstudio.com">
+              <svg class="contacts__icon" width="16" height="12">
                 <use href="./img/icomoon/sprite.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com
             </a>
           </li>
-          <li class="contacts-item">
+          <li class="contacts__item">
             <a class="phone" href="tel:+380961111111">
-              <svg class="contacts-icon" width="16" height="16">
-                <use href="./img/icomoon/sprite.svg#icon-phone"></use>
+              <svg class="contacts__icon" width="16" height="16">
+                <use href="./img/icomoon/sprite.svg#icon-phone1"></use>
               </svg>
               +380961111111
             </a>
@@ -304,12 +306,12 @@
     </main>
     <!--Подвал-->
     <footer class="footer">
-      <div class="container footer-items">
-        <div class="footer-contacts">
+      <div class="container footer__items">
+        <div class="footer__contacts">
           <a class="logo" href="WebStudio"
-            ><span class="first-logo">Web</span>Studio</a
+            ><span class="logo__text">Web</span>Studio</a
           >
-          <address class="footer-address">
+          <address class="footer__address">
             <p>г. Киев, пр-т Леси Украинки, 26</p>
             <ul class="footer-contacts-list">
               <li class="link">
@@ -331,29 +333,29 @@
           <b class="join-networks">присоединяйтесь</b>
           <ul class="social-networks-list">
             <li class="networks">
-              <a class="social-networks" href="">
-                <svg class="networks-icon" width="20" height="20">
+              <a class="networks__list" href="">
+                <svg class="networks__icon" width="20" height="20">
                   <use href="./img/icomoon/sprite.svg#icon-instagram2"></use>
                 </svg>
               </a>
             </li>
             <li class="networks">
-              <a class="social-networks" href="">
-                <svg class="networks-icon" width="20" height="20">
+              <a class="networks__list" href="">
+                <svg class="networks__icon" width="20" height="20">
                   <use href="./img/icomoon/sprite.svg#icon-twitter2"></use>
                 </svg>
               </a>
             </li>
             <li class="networks">
-              <a class="social-networks" href="">
-                <svg class="networks-icon" width="20" height="20">
+              <a class="networks__list" href="">
+                <svg class="networks__icon" width="20" height="20">
                   <use href="./img/icomoon/sprite.svg#icon-facebook2"></use>
                 </svg>
               </a>
             </li>
             <li class="networks">
-              <a class="social-networks" href="">
-                <svg class="networks-icon" width="20" height="20">
+              <a class="networks__list" href="">
+                <svg class="networks__icon" width="20" height="20">
                   <use href="./img/icomoon/sprite.svg#icon-linkedin2"></use>
                 </svg>
               </a>
@@ -362,9 +364,9 @@
         </div>
 
         <!--для почты-->
-        <div class="form">
-          <form class="sign-up">
-            <b class="title-form">Подпишитесь на рассылку</b>
+        <div class="footer__form">
+          <form class="footer__sign-up">
+            <b class="footer__form-title">Подпишитесь на рассылку</b>
             <div class="form-field">
               <label for="user-email"></label>
               <input
