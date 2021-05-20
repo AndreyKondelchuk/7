@@ -103,6 +103,8 @@
 }
 .modal {
   position: absolute;
+  width: 528px;
+  height: 581px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
@@ -161,7 +163,6 @@
 .field:hover > .form-icon {
   fill: var(--accent-color);
 }
-
 .field textarea {
   resize: none;
   width: 448px;
@@ -169,6 +170,7 @@
   font-size: 12px;
   padding: 12px 16px;
 }
+
 .checkbox {
   margin-bottom: 30px;
   margin-left: auto;
@@ -187,7 +189,10 @@
   border: 2px solid var(--accent-color);
 }
 .checkbox__label {
-  display: block;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
 }
 .checkbox__label .link {
   color: var(--accent-color);
